@@ -25,5 +25,7 @@ public class PrintfEx1 {
         System.out.printf("bigNum=%s, %d%n", Integer.toBinaryString(binNum), binNum);
 
 
+
+
     }
 }
