@@ -22,9 +22,7 @@ public class PrintfEx1 {
         System.out.printf("hex=%#x%n", hex); // #은 접두사(16진수 0x, 8진수 0)
         System.out.printf("octNum=%o, %d%n", octNub, octNub); // 8진수 , 10진수
         System.out.printf("hexNum=%x, %d%n", hexNum, hexNum);
-        System.out.printf("bigNum=%s, %d%n", Integer.toBinaryString(binNum), binNum);
-
-
+        System.out.printf("bigNum=%s, %d%n", Integer.toBinaryString(binNum), binNum); //정수 인수의 문자열 표현을 밑수 2의 부호 없는 정수로 반환합니다. 부호 없는 정수 값은 인수에 음수인 경우 인수에 232를 더한 값입니다
 
 
     }
