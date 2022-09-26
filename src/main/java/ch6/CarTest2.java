@@ -17,6 +17,9 @@ class Car {
         this.gearType = gearType;
         this.door = door;
     }
+    Car(int number) {
+
+    }
 }
 
 public class CarTest2 {
