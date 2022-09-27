@@ -12,6 +12,4 @@ public class CarTest2 {
         System.out.println(
             "c1.color ,c1.door,c1.gearType = " + c1.color + "+" + c1.door + "+" + c1.gearType);
     }
-
-
 }
