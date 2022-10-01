@@ -10,7 +10,7 @@ public class DeakTest {
 
         d.shuffle(); //카드를 섞는다.
         c = d.pick(0); //섞은후에 제일 위의 카드를 뽑는다
-        System.out.prin;
+        System.out.println(c);
 
     }
 }
