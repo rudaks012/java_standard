@@ -1,10 +1,5 @@
 package ch6;
 
-class Data {
-
-    int x;
-}
-
 public class PrimitiveParamEx {
 
     public static void main(String[] args) {
