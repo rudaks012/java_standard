@@ -6,5 +6,7 @@ public class CaptionTv extends Tv{
         if(caption) {
             System.out.println(text);
         }
+        System.out.println("text = " + text);
+
     }
 }
