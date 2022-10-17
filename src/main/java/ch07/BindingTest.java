@@ -14,8 +14,6 @@ public class BindingTest {
         c.method();
 
     }
-
-
 }
 
 class Parent1 {

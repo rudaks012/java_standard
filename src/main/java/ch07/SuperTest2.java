@@ -10,7 +10,7 @@ class Parent2 {
     int x = 10;
 }
 
-class Child2 extends Parent2 {
+class Child2 extends Parent3 {
     int x = 20;
     void method() {
         System.out.println("x=" + x);
