@@ -1,25 +1,30 @@
 package ch07;
 
 class A {
-    public void methodA(I i) {
-        i.methodB();
+    public void autoPlay(I i) {
+        i.play();
     }
 }
 
 interface I {
-    public abstract void methodB();
+    public abstract void play();
 }
 
 class B implements I {
-    public void methodB() {
-        System.out.println("methodB()");
+    public void play() {
+        System.out.println("play int B class");
     }
-
+}
+class C implements I {
+    public void play() {
+        System.out.println("play int C class");
+    }
 }
 
 public class InterfaceTest {
     public static void main(String[] args) {
         A a = new A();
-        a.methodA(new B());
+        a.autoPlay(new B());
+        a.autoPlay(new C());
     }
 }
