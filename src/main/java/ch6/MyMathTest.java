@@ -18,6 +18,8 @@ public class MyMathTest {
         System.out.println("add(5L, 3L) = " + result4);
         System.out.println("add(5L, 3L) = " + result4);
         System.out.println("add(5L, 3L) = " + result4);
+
+        System.out.println("측정결과 확인햣");
         System.out.println("addresult");
     }
 
