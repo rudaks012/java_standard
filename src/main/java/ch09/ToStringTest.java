@@ -10,5 +10,6 @@ public class ToStringTest {
         System.out.println(today);
         System.out.println(today.toString());
         System.out.println("KOREA");
+        System.out.println("KOREA".toString());
     }
 }
