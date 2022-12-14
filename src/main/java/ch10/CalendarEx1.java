@@ -23,7 +23,7 @@ public class CalendarEx1 {
         System.out.println("시간(0~23) : " + today.get(Calendar.HOUR_OF_DAY));
         System.out.println("분(0~59) : " + today.get(Calendar.MINUTE));
         System.out.println("초(0~59) : " + today.get(Calendar.SECOND));
-        System.out.println("1000분의 1초(0~999) : " + today.get(Calendar.MILLISECOND));≠
+        System.out.println("1000분의 1초(0~999) : " + today.get(Calendar.MILLISECOND));
 
         // 천분의 1초를 시간으로 표시하기 위해 3600000으로 나누었다.
         // (hour) = 3600000 / (60 * 60 * 1000)
