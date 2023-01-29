@@ -3,6 +3,7 @@ package ch11;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class ArrayListLinkedListTest2 {
 
@@ -33,6 +34,7 @@ public class ArrayListLinkedListTest2 {
         for (int i = 0; i < 100000; i++) {
             list.add(i + "");
         }
+        IntStream.range(0, 100000).forEach(list::add);
     }
 
 
