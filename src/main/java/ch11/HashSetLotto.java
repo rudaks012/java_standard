@@ -29,6 +29,7 @@ public class HashSetLotto {
                                       .boxed().sorted()
                                       .collect(Collectors.toCollection(LinkedList::new));
         System.out.println(list);
+        System.out.println(list.getClass().getName()); //java.util.LinkedList
 
     }
 
