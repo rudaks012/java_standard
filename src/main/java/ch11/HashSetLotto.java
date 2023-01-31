@@ -23,6 +23,7 @@ public class HashSetLotto {
         //limit()는 생성할 개수를 제한한다.
         //sorted()는 정렬한다.
         //collect()는 스트림을 컬렉션으로 변환한다.
+        //boxed()는 기본형을 래퍼 클래스로 변환한다.
         List<Integer> list = IntStream.generate(() -> (int) (Math.random() * 45) + 1)
                                       .distinct()
                                       .limit(6)
