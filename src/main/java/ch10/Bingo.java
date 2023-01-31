@@ -12,15 +12,9 @@ public class Bingo {
 //        Set set = new LinkedHashSet();
         int[][] board = new int[5][5];
 
-//        for (int i = 0; i < set.size(); i++) {
-//            set.add((int) (Math.random() * 50) + 1 + "");
-//        }
-        IntStream.generate(() -> (int) (Math.random() * 50) + 1)
-            .distinct()
-            .limit(0)
-            .mapToObj(String::valueOf)
-            .forEach(set::add);
-
+        for (int i = 0; i < set.size(); i++) {
+            set.add((int) (Math.random() * 50) + 1 + "");
+        }
 
 
         Iterator it = set.iterator();
