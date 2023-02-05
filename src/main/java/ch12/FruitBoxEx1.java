@@ -25,6 +25,7 @@ public class FruitBoxEx1 {
         System.out.println(fruitBox);
         System.out.println(appleBox);
         System.out.println(toyBox);
+        System.out.println("toyChk : " + toyBox.get(0));
 
     }
 
