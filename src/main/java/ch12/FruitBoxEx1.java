@@ -16,6 +16,7 @@ public class FruitBoxEx1 {
 
         fruitBox.add(new Fruit());
         fruitBox.add(new Apple()); // OK. Apple은 Fruit의 자손이다.
+        //fruitBox.add(new Toy()); // 에러. Toy는 Fruit의 자손이 아니다.
 
         appleBox.add(new Apple());
         appleBox.add(new Apple());
