@@ -24,6 +24,7 @@ public enum Direction {
     public static  Direction of(int dir) {
         if (dir < 1 || dir > 4) {
             throw new IllegalArgumentException("Invalid value : " + dir);
+            //예외처리
         }
         return DIR_ARR[dir - 1];
     }
